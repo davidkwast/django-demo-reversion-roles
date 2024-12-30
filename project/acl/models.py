@@ -65,7 +65,7 @@ class User(AbstractBaseUser, PermissionsMixin):
     short_name = models.CharField(
         'Short name', max_length=128, blank=True, default=''
     )
-    long_name = models.CharField(
+    full_name = models.CharField(
         'Full name', max_length=128, blank=True, default=''
     )
 
