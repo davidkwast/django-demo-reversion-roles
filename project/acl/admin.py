@@ -48,6 +48,3 @@ class MyUserAdmin(UserAdmin):
 
 
 admin.site.register(User, MyUserAdmin)
-
-
-# admin.site.register(User)
